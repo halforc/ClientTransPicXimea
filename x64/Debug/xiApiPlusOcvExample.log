@@ -1,0 +1,27 @@
+﻿生成启动时间为 2018/5/23 9:21:41。
+     1>项目“D:\Qt\XIMEA\Examples\xiApiPlusOcv\xiApiPlusOcvExample.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\Include /I\..\..\include /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /D _MBCS /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt WinsockMatTransmissionClient.cpp xiApiPlusOcvExample.cpp
+         WinsockMatTransmissionClient.cpp
+     1>D:\Program Files\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\Program Files\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\Program Files\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>WinsockMatTransmissionClient.cpp(44): warning C4244: “=”: 从“SOCKET”转换到“int”，可能丢失数据
+         正在生成代码...
+     1>d:\qt\ximea\examples\xiapiplusocv\winsockmattransmissionclient.cpp(106): warning C4715: “WinsockMatTransmissionClient::transmit”: 不是所有的控件路径都返回值
+         正在编译...
+         xiApiPlusOcvExample.cpp
+     1>D:\Program Files\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\Program Files\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\Program Files\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\Bin\xiApiPlusOcvExample.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\Bin /LIBPATH:\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib xiapi64.lib opencv_world310d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\Bin\xiApiPlusOcvExample.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Bin\xiApiPlusOcvExample.lib" /MACHINE:X64 x64\Debug\WinsockMatTransmissionClient.obj
+         x64\Debug\xiApiPlusOcv.obj
+         x64\Debug\xiApiPlusOcvExample.obj
+         xiApiPlusOcvExample.vcxproj -> D:\Qt\XIMEA\Examples\xiApiPlusOcv\..\Bin\xiApiPlusOcvExample.exe
+     1>已完成生成项目“D:\Qt\XIMEA\Examples\xiApiPlusOcv\xiApiPlusOcvExample.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.56
